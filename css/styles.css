@@ -1,0 +1,114 @@
+/* font-family: 'Comic Neue', cursive;
+font-family: 'Open Sans', sans-serif; */
+
+/* Variables */
+
+:root {
+  --colot-texto: #666;
+  --color-boton: #e5e5e5;
+  --background-boton: #585ec7;
+}
+
+/* Estilos generales */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Estilos de la cabecera */
+
+header {
+  padding: 30px 0;
+}
+
+header h2 {
+  font-family: 'Comic Neue', cursive;
+  font-size: 30px;
+}
+
+header nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+header .container {
+  color: var(--colot-texto);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos de la portada */
+
+main .portada {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+main .portada img {
+  width: 45%;
+}
+
+main .portada .info {
+  padding: 10px;
+}
+
+main .portada .info h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  font-weight: normal;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+
+main .portada .info p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+main .portada .info .btn-1 {
+  background: var(--background-boton);
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  margin-right: 20px;
+  padding: 10px 30px;
+  outline: none;
+}
+
+main .portada .info .btn-2 {
+  background: var(--color-boton);
+  color: var(--colot-texto);
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  outline: none;
+}
+
+main .portada .info .animal {
+  color: orange;
+}
